@@ -1,4 +1,5 @@
 import styles from './Home.module.css'
+import myIcon from './images/my-icon.png'
 
 import { FaDownload, FaWhatsapp } from "react-icons/fa6";
 
@@ -16,7 +17,7 @@ const Home = () => {
         </div>
       </div>
       <figure>
-        <img className={styles.icon__home} src="/my-icon.png" alt="Imagem da minha Logo" />
+        <img  src={myIcon} alt="Imagem da minha Logo" className={styles.icon__home}/>
       </figure>
     </section>
 
