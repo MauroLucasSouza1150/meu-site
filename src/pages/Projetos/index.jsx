@@ -16,13 +16,13 @@ const Projetos = () => {
           url={"https://cardapio-hamburgueria-orcin.vercel.app/"} 
           icones={[FaHtml5, FaCss3Alt, FaJs]} />
 
-        <Card titulo={"Formulário de Satisfação"}
+        <Card titulo={"Formulário de Validação"}
           imagemUrl={"/src/assets/formulario-validacao.jpeg"}
           descricao={"Projeto de um formulário de validação, onde o usuário preencherá seu feedback sobre um produto, responderá algumas perguntas, sobre como foi sua Satisfação com tal produto."}
           url={"https://maurolucassouza1150.github.io/react-ts-multistep/"} 
           icones={[FaReact, BiLogoTypescript]}/>
 
-        <Card titulo={"Landing Page Newsletter"}
+        <Card titulo={"Landing Page"}
           imagemUrl={"/src/assets/landing-page.jpeg"}
           descricao={"Projeto de uma Landing Page, o usuário deverá cadastrar seu e-mail corretamente,um dos desafios foi a integração de duas janelas modal, onde elas aparecem dependendo de como foi preenchido o formulário."}
           url={"https://maurolucassouza1150.github.io/Desafio-Landing-page/"} 
