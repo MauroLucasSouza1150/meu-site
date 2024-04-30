@@ -1,0 +1,61 @@
+.h2_erro {
+    padding-top: 2rem;
+    color: var(--red);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.container_erro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.numero_erro {
+    font-size: 280px;
+    color: var(--red);
+    text-shadow: 4px 4px black;
+    font-weight: bold;
+}
+
+.msg_erro {
+    color: var(--red);
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .h2_erro {
+        font-size: 1.2rem;
+    }
+
+    .numero_erro {
+        font-size: 12rem;
+    }
+
+    .msg_erro {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 470px) {
+    .container_erro {
+        padding-block: 1rem;
+        padding-inline: 1.4rem;
+    }
+
+    .h2_erro {
+        font-size: 1rem;
+    }
+
+    .numero_erro {
+        font-size: 5rem;
+        text-shadow: none;
+    }
+
+    .msg_erro {
+        font-size: 1rem;
+    }
+}

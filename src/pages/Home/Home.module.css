@@ -1,0 +1,93 @@
+/* Css da page Home */
+
+.home {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .home img {
+    height: 500px;
+  }
+  
+  .home p {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+  }
+  
+  .home span {
+    color: var(--gold);
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+  }
+  
+  .btn__links {
+    margin-top: 2rem;
+    display: flex;
+    gap: 10rem;
+  }
+  
+  .apresentacao .btn__curriculo,
+  .apresentacao .btn__email {
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.25s;
+    text-decoration: none;
+    background-color: var(--gray);
+    color: var(--white);
+  }
+  
+  .apresentacao .btn__curriculo:hover,
+  .apresentacao .btn__email:hover {
+    border: none;
+    background-color: var(--gold);
+    color: var(--white);
+    font-weight: bold;
+  }
+
+@media (max-width: 768px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.4rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    padding-block: 1.6rem;
+  }
+
+  .home img {
+    max-width: 100%;
+    height: auto;
+    padding-inline: 2.5rem;
+  }
+
+  .apresentacao p {
+    font-size: 1.6rem;
+  }
+
+  .btn__links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .apresentacao .btn__curriculo,
+  .apresentacao .btn__email {
+    padding-inline: 1.2rem;
+    width: 280px;
+    height: auto;
+  }
+
+}

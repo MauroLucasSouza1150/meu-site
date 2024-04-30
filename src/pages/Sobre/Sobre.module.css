@@ -1,0 +1,105 @@
+.sobre {
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem; 
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    margin-bottom: 1.2rem;
+}
+
+.texto, h2, p {
+    margin-bottom: 1rem;
+}
+
+.texto h2 {
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.texto p {
+    font-size: 1.2rem;
+}
+
+.texto span {
+    color: var(--terceary);
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-bottom: 2px solid var(--terceary);
+}
+
+.foto {
+    width: 300px;
+    height: 300px;
+}
+
+.techs {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.icones_techs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icone_tech {
+    width: 80px;
+    height: 80px;
+}
+
+.icone_html {
+    height: 90px;
+    width: 90px;
+}
+
+@media (max-width: 768px) {
+    .bio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .icones_techs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sobre {
+        padding-block: 1.6rem;
+        padding-inline: 1.6rem;
+    }
+
+    .foto {
+        max-width: 100%;
+        height: auto;
+        padding-inline: 1.4rem;
+    }
+
+    .icone_tech {
+        width: 45px;
+        height: 45px;
+    }
+}
